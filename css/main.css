@@ -1,0 +1,118 @@
+body{
+    font-family:'Montserrat';
+}
+
+.language_selector{
+    text-align:right;
+    vertical-align: -webkit-baseline-middle;
+    margin: auto;
+    width: 1260px;
+    position: relative;
+}
+
+header{
+    margin: auto;
+    width: 1260px;
+}
+
+.flag{
+    height: 40px;
+    position: absolute;
+    z-index: 1;
+    right: 25px;
+    top: 5px;
+}
+
+#select_lang{
+    width: 130px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+
+.logo{
+    position: absolute;
+    height: 150px;
+    transform: translate(50px);
+    z-index: 1;
+}
+
+.main_banner{
+    position: relative;
+    background: #1976D2;
+    width: 100%;
+    height: 80px;
+    max-width: 1260px;
+    border-radius: 15px;
+    margin: auto;
+    text-align: left;
+}
+
+.cab_button{ 
+    height: 40px;
+    background-color: #1F81E2;
+    border-radius: 8px;
+    border-style: none;
+    color:white;
+    font-size: 21px;
+    box-shadow: 1px 1px 4px #414141;
+}
+.cab_button:hover{
+    box-shadow: 0 0 5px 3px;
+}
+
+.cab_button:active{
+    box-shadow: inset 0 0 5px black;
+    text-shadow: 0 0 3px black;
+    color:#cccccc
+}
+
+#log_in{
+    width: 120px;
+    position: absolute;
+    right: 20px;
+    top: 20px
+}
+
+#sign_in{
+    width: 160px;
+    position: absolute;
+    right: 160px;
+    top: 20px
+}
+
+.banner_links{
+    position: absolute;
+    font-size: 24px;
+    color: white;
+    top: 25px;
+    text-decoration: none;
+    text-shadow: #535353 1px 3px 4px;
+}
+
+.banner_links:hover{
+    text-shadow: #ffffff 0px 0px 4px;
+}
+
+.banner_links:active{
+    text-shadow: #535353 0px 0px 4px; ;
+    color: #cccccc;
+}
+
+#bl1{
+    left: 220px;
+}
+
+#bl2{
+    left: 360px;
+}
+
+#bl3{
+    left: 500px;
+}
+
+#bl4{
+    left: 620px;
+}

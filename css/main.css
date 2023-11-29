@@ -8,9 +8,12 @@ body{
     margin: auto;
     width: 1260px;
     position: relative;
+    min-height: 50px;
 }
 
 header{
+    position: sticky;
+    top: 0px;
     margin: auto;
     width: 1260px;
 }
@@ -35,7 +38,8 @@ header{
 .logo{
     position: absolute;
     height: 150px;
-    transform: translate(50px);
+    left: 50px;
+    top: -50px;
     z-index: 1;
 }
 
@@ -115,4 +119,140 @@ header{
 
 #bl4{
     left: 620px;
+}
+
+.stub{
+    width: 1260px;
+    height: 2000px;
+    background-color: gray;
+    margin: auto;
+}
+
+
+footer{
+    margin: auto;
+    width: 1260px;
+    height: 340px;
+    border-radius: 10px;
+    background-color: #e9e9e9;
+    position: relative;
+}
+
+.f_links{
+    user-select: none;
+    position: absolute;
+    font-size: 26px;
+    font-weight:200;
+    top: 30px;
+}
+#f1{
+    left:50px;
+}
+#f2{
+    left: 240px;
+}
+#f3{
+    left: 600px;
+}
+#f4{
+    left: 900px;
+}
+#f5{
+    left: 900px;
+    top: 90px;
+}
+#f6{
+    left: 900px;
+    top: 150px;
+}
+
+
+.fc_links{
+    cursor: pointer;
+    user-select: none;
+    position: absolute;
+    font-size: 20px;
+    font-weight:lighter;
+    left:50px;
+    color: rgb(92, 92, 92);
+}
+
+#fc1{
+    top: 80px;
+}
+#fc2{
+    top: 120px;
+}
+#fc3{
+    top: 160px;
+}
+#fc4{
+    left: 240px;
+    top: 80px;
+}
+#fc5{
+    left: 240px;
+    top: 120px;
+}
+#fc6{
+    left: 240px;
+    top: 160px;
+}
+#fc7{
+    left: 240px;
+    top: 200px;
+}
+#fc8{
+    left: 240px;
+    top: 240px;
+}
+#fc9{
+    left: 240px;
+    top: 280px;
+}
+#fc10{
+    left: 600px;
+    top: 80px;
+}
+#fc11{
+    left: 600px;
+    top: 120px;
+}
+
+
+.apk_download{
+    position: absolute;
+    width: 260px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    left: 900px;
+    top: 210px;
+    box-shadow: 0 0 8px gray;
+}
+
+.apk_download:active{
+    box-shadow: inset 0 0 8px gray;
+}
+
+pre{
+    user-select: none;
+    position: absolute;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 24px;
+    transform: translate(-110px, 15px);
+    color: black;
+}
+
+.droid{
+    user-select: none;
+    position: absolute;
+    height: 80px;
+    transform: translate(185px, 5px);
+}
+
+.content{
+    width: 1000px;
 }

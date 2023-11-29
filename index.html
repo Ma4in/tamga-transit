@@ -4,32 +4,60 @@
         <meta charset="utf-8">
         <title>Tamga-transit</title>
         <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Montserrat'>
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/main.css" id="css">
+        <script src="scripts/main.js"></script>
     </head>
     <body>
+        <div class="language_selector" id="lang_selc"> 
+            <b style="font-weight: 100;">Language</b>
+            <img src="resources/image_1.png" class="flag" id="flg">
+            <select id="select_lang">
+                <option value="rus">Русский</option>
+            </select>
+        </div>
         <header>
-            <img src="resources/t_logo_.png" class="logo">
-           <div class="language_selector"> 
-                <b>Language</b>
-                <img src="resources/image_1.png" class="flag">
-                <select id="select_lang">
-                    <option value="rus">Русский</option>
-                </select>
-           </div>
+            <img src="resources/t_logo_.png" class="logo" id="lg">
            <div class="main_banner">
-                <a href="" class="banner_links" id="bl1">Главная</a>
-                <a href="" class="banner_links" id="bl2">Тарифы</a>
-                <a href="" class="banner_links" id="bl3">Услуги</a>
-                <a href="" class="banner_links" id="bl4">Таможенные режимы</a>
-                <button class="cab_button" id="sign_in">Регистрация</button>
-                <button class="cab_button" id="log_in">Вход</button>
-           </div>
+            <a href="" class="banner_links" id="bl1">Главная</a>
+            <a href="" class="banner_links" id="bl2">Тарифы</a>
+            <a href="" class="banner_links" id="bl3">Услуги</a>
+            <a href="" class="banner_links" id="bl4">Таможенные режимы</a>
+            <button class="cab_button" id="sign_in">Регистрация</button>
+            <button class="cab_button" id="log_in">Вход</button>
+        </div>
         </header>
         <main>
-
+            <div class="stub">
+                <iframe src="lab5.html"></iframe>
+            </div>
         </main>
         <footer>
-
+            <div class="apk_download">
+                <a href="">
+                <pre>
+                    Скачать
+                    Приложение
+                </pre>
+                <img src="resources/image_2.png" alt="" class="droid">
+                </a>
+            </div>
+            <b class="f_links" id="f1">Контакты</b>
+            <b class="f_links" id="f2">Таможенные режимы</b>
+            <b class="f_links" id="f3">Вопросы и ответы</b>
+            <b class="f_links" id="f4">Вакансии</b>
+            <b class="f_links" id="f5">Документы</b>
+            <b class="f_links" id="f6">Политика приватности</b>
+            <b class="fc_links" id="fc1">Почта</b>
+            <b class="fc_links" id="fc2">Телефон</b>
+            <b class="fc_links" id="fc3">Адрес</b>
+            <b class="fc_links" id="fc4">Экспорт / Импорт</b>
+            <b class="fc_links" id="fc5">Транзит</b>
+            <b class="fc_links" id="fc6">Временный ввоз / вывоз</b>
+            <b class="fc_links" id="fc7">Таможенное сопровождение</b>
+            <b class="fc_links" id="fc8">Перевозка сборных грузов</b>
+            <b class="fc_links" id="fc9">Мультимодальные перевозки</b>
+            <b class="fc_links" id="fc10">Часто задаваемые вопосы</b>
+            <b class="fc_links" id="fc11">Оставить свой вопрос</b>
         </footer>
     </body>
 </html>

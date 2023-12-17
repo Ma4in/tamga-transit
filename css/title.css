@@ -1,0 +1,241 @@
+.banner_cont{
+    user-select: none;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+.content_line{
+    margin: auto;
+    width: 1260px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    height: 2px;
+    background-color: #1F81E2;
+}
+
+.m_cont {
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    width: 1260px;
+    height: 350px;
+    background-color: #F7F7F7;
+    z-index: 1;
+    margin-bottom: 100px;
+    box-shadow: 0px 2px 7px #e0e0e0;
+}
+
+.country {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+}
+
+.banner_txt {
+    text-shadow:0px 1px 3px rgba(0, 0, 0, 0.25);
+	color:rgb(37, 37, 37);
+	width:429px;
+	height:186px;
+	font-family:'Montserrat';
+	text-align:left;
+	font-size:36px;
+    font-weight: 100;
+	letter-spacing:4;
+    white-space: pre-line;
+    position: absolute;
+    top:60px;
+    left: 40px;
+    z-index: 3;
+}
+
+.b_cont{
+    position: absolute;
+    width: 1260px;
+    display:flex;
+    flex-direction: row;
+    z-index: 999;
+    justify-content: center;
+    top: 300px;
+}
+
+.b_box{
+    box-shadow:0px 0px 6px rgba(0, 0, 0, 0.1);
+	background-color:rgba(255, 255, 255, 1);
+	width:250px;
+	height:113px;
+	border-radius: 15px;
+    border: 1px solid #1F81E2;
+    z-index: 999;
+    margin: 20px;
+    box-shadow: 0px 0px 10px #cacaca;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.b_img{
+    height: 60px;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.b_txt{
+	font-family:'Montserrat';
+	margin: auto;
+	font-size:24px;
+	letter-spacing:4;
+}
+
+.block_name{
+    width: 1260px;
+    display: block;
+    margin: auto;
+    font-size: 27px;
+    padding-left: 60px;
+    margin-bottom: 10px;
+    text-shadow:0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+
+/*______________Slider______________*/
+
+.carousel {
+    position: relative;
+    width: 1260px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+ 
+.carousel-inner {
+    display: flex;
+    width: 3760px;
+    transition: transform 1s;
+}
+ 
+.carousel-item {
+    flex: 1;
+    text-align: center;
+    width: 600px;
+    height: 300px;
+    border: 1px solid #1F81E2;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.ci_name {
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size:1.8em;
+    margin-bottom: 0px;
+}
+
+.ci_desc {
+    white-space: pre-line;
+    text-align: left;
+    position: absolute;
+    left: 30px;
+    top:60px;
+    font-size: 1.3em;
+}
+
+.ci_img {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    width: 150px;
+}
+
+
+/*______________News______________*/
+
+.news_cont{
+    width: 1260px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.news_itm{
+    width: 390px;
+    height: 250px;
+    margin: auto;
+    border: 1px solid #1F81E2;
+    border-radius: 15px;
+    box-shadow:0px 5px 14px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.news_name{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1.2em;
+}
+
+.news_desc{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    font-size: 1.1em;
+    font-weight: 100;
+}
+
+.news_date{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.news_link{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color: black;
+}
+
+/*______________Partners______________*/
+
+.part_cont{
+    width: 1260px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+.part_elm{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.part_img{
+    height: 160px;
+}
+
+.part_img2{
+    height: 120px;
+    margin: 20px;
+}
+
+.part_name{
+    text-align: center;
+    font-size: 1.4em;
+}

@@ -16,6 +16,7 @@ header{
     top: 0px;
     margin: auto;
     width: 1260px;
+    z-index: 999;
 }
 
 .flag{
@@ -41,6 +42,7 @@ header{
     left: 50px;
     top: -50px;
     z-index: 1;
+    box-shadow:3px 3px 7px rgba(0, 0, 0, 0.25);
 }
 
 .main_banner{
@@ -120,14 +122,6 @@ header{
 #bl4{
     left: 620px;
 }
-
-.stub{
-    width: 1260px;
-    height: 2000px;
-    background-color: gray;
-    margin: auto;
-}
-
 
 footer{
     margin: auto;
@@ -219,6 +213,11 @@ footer{
     top: 120px;
 }
 
+#fc12{
+    left: 1050px;
+    bottom: 10px;
+    font-size: 14px;
+}
 
 .apk_download{
     position: absolute;
@@ -254,5 +253,65 @@ pre{
 }
 
 .content{
-    width: 1000px;
+    display: block;
+    width: 1260px;
+    height: 600px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+}
+
+
+.dailog{
+    display: none;
+    position: absolute;
+    border: 1px solid #1F81E2;
+    border-radius: 15px;
+    background-color: white;
+    padding: 15px; 
+}
+
+#mailDial {
+    height: 120px;
+    width: 250px;
+    top: -50px;
+    left: 100px;
+}
+
+#phoneDial {
+    height: 120px;
+    width: 250px;
+    left: 100px;
+    top:-10px;
+}
+
+#addresDial {
+    height: 120px;
+    width: 250px;
+    left: 100px;
+    top:30px;
+    text-decoration: none;
+}
+
+.dialog_txt{
+    margin-bottom: 5px;
+}
+
+.dialog_name{
+    position: absolute;
+    right: 40px;
+    top: -10px;
+    font-size: large;
+}
+
+.close_dialog{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 20px;
+    background: transparent;
+    border: none;
 }

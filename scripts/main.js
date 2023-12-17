@@ -18,6 +18,8 @@ window.addEventListener('resize', (e) => {
     changeSize(window.innerWidth)
 });
 
+
+//переключение css файлов в зависимости от разрешения отображния сайта.
 function changeSize(size){
     if (window.innerWidth > 1200){
        // console.log('bigformat')
@@ -29,3 +31,16 @@ function changeSize(size){
 
 var startSize = window.innerWidth;
 changeSize(startSize)
+
+
+const mailDial = document.getElementById("mailDial");
+const phoneDial = document.getElementById("phoneDial");
+const addresDial = document.getElementById("addresDial");
+
+function showDialog(dialog){
+    dialog.style.display = "block";
+}
+
+function hideDialog(dialog){
+    dialog.style.display = "none";
+}

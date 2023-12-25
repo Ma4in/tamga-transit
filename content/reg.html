@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tamga-transit</title>
+        <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Montserrat'>
+        <link rel="stylesheet" href="../css/main.css">
+    </head>
+    <body>
+        <div class="language_selector" id="lang_selc"> 
+            <b style="font-weight: 100;">Language</b>
+            <img src="../resources/image_1.png" class="flag" id="flg">
+            <select id="select_lang">
+                <option value="rus">Русский</option>
+            </select>
+        </div>
+        <header>
+            <img src="../resources/t_logo_.png" class="logo" id="lg">
+           <div class="main_banner">
+            <a href="../index.html" class="banner_links" id="bl1">Главная</a>
+            <a href="" class="banner_links" id="bl2">Тарифы</a>
+            <a href="" class="banner_links" id="bl3">Услуги</a>
+            <a href="" class="banner_links" id="bl4">Таможенные режимы</a>
+            <button class="cab_button" id="sign_in"><a href="../content/reg.html">Регистрация</a></button>
+            <button class="cab_button" id="log_in">Вход</button>
+        </div>
+        </header>
+        <main>
+
+            <link rel="stylesheet" href="../css/reg.css">
+            <div class="reg_box">
+                <P class="reg_txt">Оставить заявку на Регистрацию</P>
+                <div  class="input">
+                    <p class="inp_name">ФИО</p>
+                    <input type="text" id="fio" placeholder="Фамилия Имя Отчество">
+                    <p class="inp_name">Почта</p>
+                    <input type="text" id="fio" placeholder="Корпоративный email">
+                    <p class="inp_name">Организация</p>
+                    <input type="text" id="fio" placeholder="Наименование Организации">
+                    <p class="inp_name">Адрес</p>
+                    <input type="text" id="fio" placeholder="Юридический Адрес">
+                    <p class="inp_name">ИНН</p>
+                    <input type="text" id="fio" placeholder="ИНН Организации">
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <div class="apk_download">
+                <a href="">
+                <pre>
+                    Скачать
+                    Приложение
+                </pre>
+                <img src="../resources/image_2.png" alt="" class="droid">
+                </a>
+            </div>
+            <b class="f_links" id="f1">Контакты</b>
+            <b class="f_links" id="f2">Таможенные режимы</b>
+            <b class="f_links" id="f3">Вопросы и ответы</b>
+            <b class="f_links" id="f4">Вакансии</b>
+            <b class="f_links" id="f5">Документы</b>
+            <b class="f_links" id="f6">Политика приватности</b>
+
+            <b class="fc_links" id="fc1" onclick="showDialog(mailDial)">Почта</b>
+            <b class="fc_links" id="fc2" onclick="showDialog(phoneDial)">Телефон</b>
+            <b class="fc_links" id="fc3" onclick="showDialog(addresDial)">Адрес</b>
+
+            <b class="fc_links" id="fc4">Экспорт / Импорт</b>
+            <b class="fc_links" id="fc5">Транзит</b>
+            <b class="fc_links" id="fc6">Временный ввоз / вывоз</b>
+            <b class="fc_links" id="fc7">Таможенное сопровождение</b>
+            <b class="fc_links" id="fc8">Перевозка сборных грузов</b>
+            <b class="fc_links" id="fc9">Мультимодальные перевозки</b>
+            <b class="fc_links" id="fc10">Часто задаваемые вопосы</b>
+            <b class="fc_links" id="fc11">Оставить свой вопрос</b>
+            <b class="fc_links" id="fc12">© 2023–2024, ЗАО "ТАМГА"</b>
+            
+            <div class="dailog" id="mailDial">
+                <p class="dialog_txt">Офис :</p>
+                <a href="mailto: example@tamga.ru" class="dialog_txt">example@tamga.ru</a>
+                <P class="dialog_txt">Поддержка :</P>
+                <a href="mailto: support-example@tamga.ru">support-example@tamga.ru</a>
+                <p class="dialog_name">Почта</p>
+                <button class="close_dialog" onclick="hideDialog(mailDial)">✕</button>
+            </div>
+
+            <div class="dailog" id="phoneDial">
+                <p class="dialog_txt">Основной :</p>
+                <a href="tel:+7 999-999-99-99" class="dialog_txt">+7 999-999-99-99</a>
+                <P class="dialog_txt">Резервный :</P>
+                <a href="tel:+7 999-999-99-99" class="dialog_txt">+7 999-999-99-99</a>
+                <p class="dialog_name">Телефоны</p>
+                <button class="close_dialog" onclick="hideDialog(phoneDial)">✕</button>
+            </div>
+
+            <div class="dailog" id="addresDial">
+                <p class="dialog_txt">Офис :</p>
+                <a href="geo: 47.229231283303406, 39.74872599743274">344019, 
+                    Ростовская область, 
+                    город Ростов-на-Дону, 
+                    ул. Каяни, д.3</a>
+                <p class="dialog_name">Адрес</p>
+                <button class="close_dialog" onclick="hideDialog(addresDial)">✕</button>
+            </div>
+
+        </footer>
+        <script src="../scripts/main.js"></script>
+    </body>
+</html>

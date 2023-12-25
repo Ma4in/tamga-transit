@@ -10,7 +10,8 @@ function goToSlide(index) {
             index = 0;
         }
         currentIndex = index;
-        document.querySelector('.carousel-inner').style.transform = `translateX(-${currentIndex * 625}px)`;
+        
+        document.querySelector('.carousel-inner').style.transform = `translateX(-${currentIndex * (carouselItems[0].offsetWidth + 20)}px)`;
     }
 }
  

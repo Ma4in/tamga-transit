@@ -2,6 +2,11 @@ body{
     font-family:'Montserrat';
 }
 
+a:link,a:visited,a:hover,a:active{
+    text-decoration: none;
+    color: white;
+}
+
 .language_selector{
     text-align:right;
     vertical-align: -webkit-baseline-middle;
